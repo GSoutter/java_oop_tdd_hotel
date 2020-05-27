@@ -12,7 +12,7 @@ public class ConferenceRoomTest {
     @Before
     public void before(){
         guest = new Guest("Dave");
-        conferenceRoom = new ConferenceRoom("Carnegie", 2, "Double");
+        conferenceRoom = new ConferenceRoom("Carnegie", 2);
 
     }
 
@@ -24,11 +24,6 @@ public class ConferenceRoomTest {
     @Test
     public void hasCapacity() {
         assertEquals(2, conferenceRoom.getCapacity());
-    }
-
-    @Test
-    public void hasRoomType() {
-        assertEquals("Double", conferenceRoom.getRoomType());
     }
 
     @Test

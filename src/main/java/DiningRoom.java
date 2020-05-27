@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ConferenceRoom {
+public class DiningRoom {
 
 
     private String name;
@@ -8,7 +8,7 @@ public class ConferenceRoom {
     private ArrayList<Guest> guests;
 
 
-    public ConferenceRoom(String name, int capacity) {
+    public DiningRoom(String name, int capacity) {
         this.name = name;
         this.capacity = capacity;
         this.guests = new ArrayList<Guest>();
@@ -35,4 +35,5 @@ public class ConferenceRoom {
         this.guests.remove(guest);
     }
 }
+
 
