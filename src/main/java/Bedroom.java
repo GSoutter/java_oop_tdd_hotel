@@ -37,7 +37,6 @@ public class Bedroom {
     }
 
     public void removeGuest(Guest guest) {
-
         this.guests.remove(guest);
     }
 }
